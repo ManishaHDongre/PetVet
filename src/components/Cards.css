@@ -1,0 +1,90 @@
+.os-page{
+  background-image: url("E:\reactapp\vetproject\src\images\bg-pattern.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#head {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.cards__item {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.cards__item__img {
+  position: relative;    
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px){
+  .img_size {
+    display: none;
+        }
+  }
+
+
+.cards {
+    width: 50%;
+    border: black;
+    border-radius: 5px;
+    background-color: #ecececea;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    align-items: center;
+  }
+
+  #petprob{
+    height: 200px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=textt], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=textt]:focus {
+    width: 100%;
+  }
+
+  button[type=submitt] {
+    background-color: rgb(75, 73, 73);
+    color: white;
+  }
+  
+  button[type=submitt]:hover {
+    background-color: black;
+    color: white;
+  }
+
+  @media screen and (max-width: 700px){
+    .cards {
+      min-width: 93%;
+      }
+    }
+
+ 

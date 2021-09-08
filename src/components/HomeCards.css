@@ -1,0 +1,237 @@
+.home-cards-part {
+    background-image: url("E:\reactapp\vetproject\src\images\bg-pattern.jpg");
+}
+
+.headding{
+    font-size: 50px;
+    font-weight: 750;
+    margin-top: 20px;
+    padding: 20px;
+    color: rgb(77, 40, 3);
+}
+
+#card1{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+    background-color: rgb(196, 251, 253);
+    display: flex;
+}
+
+#card2{
+    padding: 10px;
+    margin: 10px;
+    height: inherit;
+    border-radius: 3px;
+    width: 600px;
+    display: flex;
+}
+
+#card3{
+    padding: 10px;
+    margin: 10px;
+    height: inherit;
+    border-radius: 3px;
+    display: flex;
+}
+
+#card4{
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    border-radius: 3px;
+    background-color: rgb(245, 204, 142);   
+    display: flex;
+}
+
+#card5{
+    padding: 10px;
+    margin: 10px;   
+    height: fit-content;
+    border-radius: 3px;
+    background-color: rgb(194, 255, 52);
+    display: flex;
+}
+
+#card6{
+    padding: 10px;
+    margin: 10px;
+    height: inherit;
+    border-radius: 3px;
+    display: flex;
+}
+
+.btn-home{
+    background-color: rgb(236, 236, 236);
+}
+
+.sec1{
+    margin-bottom: 30px;
+}
+
+.online-consult-container .grooming-heading {
+    text-align: right;
+}
+@media screen and (max-width: 767px){
+.grooming-heading {
+    font-size: 20px;
+}
+}
+.grooming-heading {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+.navi {
+    float: left;
+    width: 50%;
+    height: 600px; /* only for demonstration, should be removed */
+    background: white;
+    padding: 20px;
+  }
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    height: 600px; /* only for demonstration, should be removed */
+  }
+
+
+  
+  /* Clear floats after the columns 
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+
+  @media (max-width: 600px) {
+    .navi, article {
+      width: 100%;
+      height: auto;
+      display: column;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #card1, #card4,#card5 {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #card2, #card3, #card6 {
+      display: none;
+    }
+  }
+
+
+  .online-consult-section.cat-consult .online-consult-container-content {
+    z-index: 1;
+    position: relative;
+}
+
+.online-consult-section.cat-consult .online-consult-container {
+    float: none;
+    background: 0 0;
+    position: relative;
+    width: calc(59% - 10px);
+    text-align: left;
+}
+
+.online-consult-container {
+    width: 50%;
+    padding: 90px 8%;
+    float: right;
+    background: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNzQxIDUwMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcy8+CiAgPHBhdGggZD0iTTU5LjA1ODQ2Mi0zNS4zNzg5MDYyQzIxMi4wOTI1MjktMTQxLjE0OTI3NSA0NDYuODk3NTYtMTMwLjQ2NjUzMyA3NjMuNDczNTYtMy4zMzA2Nzg4TDc2OCA3ODMuODkzNzI4Yy00MDcuNjEzOTkgNDMuNDYzNDUxLTY0Ni44NDk4MDEgNDQuODU0MDMxLTcxNy43MDc0MzEgNC4xNzE3NEMtNTUuOTkzODc0IDcyNy4wNDIwMy0zNS43Njc3MTcgNjA4LjUwOTY3OSA0MS41MjY2NzcgNDc3IDE0Mi4zMzQ0MzggMzA1LjQ4NDM3NS0xMDYuMTcwOTAzIDc4LjgyMDMxMjUgNTkuMDU4NDYyLTM1LjM3ODkwNjJ6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIG9wYWNpdHk9Ii44NDg3MTY1MiIvPgo8L3N2Zz4=);
+    background-size: cover;
+    text-align: right;
+}
+
+.online-consult-section.cat-consult {
+    background-image: url(//dm6g3jbka53hp.cloudfront.net/static-images/cute-kitten-sitting-15042020.jpg);
+}
+
+@media screen and (max-width: 767px){
+.online-consult-container {
+    background: #fff4d9;
+}
+}
+
+@media screen and (max-width: 767px){
+.online-consult-container, .online-consult-section.cat-consult .online-consult-container {
+    width: 100%;
+    padding: 20px 8%;
+}
+}
+.online-consult-container {
+    width: 50%;
+    padding: 90px 8%;
+    float: right;
+    background: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNzQxIDUwMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcy8+CiAgPHBhdGggZD0iTTU5LjA1ODQ2Mi0zNS4zNzg5MDYyQzIxMi4wOTI1MjktMTQxLjE0OTI3NSA0NDYuODk3NTYtMTMwLjQ2NjUzMyA3NjMuNDczNTYtMy4zMzA2Nzg4TDc2OCA3ODMuODkzNzI4Yy00MDcuNjEzOTkgNDMuNDYzNDUxLTY0Ni44NDk4MDEgNDQuODU0MDMxLTcxNy43MDc0MzEgNC4xNzE3NEMtNTUuOTkzODc0IDcyNy4wNDIwMy0zNS43Njc3MTcgNjA4LjUwOTY3OSA0MS41MjY2NzcgNDc3IDE0Mi4zMzQ0MzggMzA1LjQ4NDM3NS0xMDYuMTcwOTAzIDc4LjgyMDMxMjUgNTkuMDU4NDYyLTM1LjM3ODkwNjJ6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIG9wYWNpdHk9Ii44NDg3MTY1MiIvPgo8L3N2Zz4=);
+    background-size: cover;
+    text-align: right;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+h2{
+    text-underline-position: bottom;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.banner-link button, .vet-action-btn {
+    color: #fff;
+    background: #ff6b01;
+    margin-bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    font: 400 13.3333px Arial;
+    font-size: 22px;
+    max-width: 340px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.btn-home:hover{
+background-color: orangered;}
+
+@media screen and (max-width: 767px){
+    .banner-link button {
+        font-size: 16px;
+        border-radius: 3px;
+        height: 45px;
+        width: 100%;
+        max-width: none;
+    }
+}

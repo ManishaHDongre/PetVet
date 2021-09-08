@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.cservices,
+.hservices,
+.oservices,
+.adoptpet,
+.rehomepet,
+.about-us {
+  display: flex;
+  height: 80vh;
+  font-size: 3rem;
+}
+
+.home{
+  align-items: center;
+  justify-content: center;
+}
+
+.cservices {
+  background-image: url('./images/img-10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: large;
+}
+
+.oservices {
+  background-image: url('./images/img-10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size:large;
+}
+
+.hservices {
+  background-image: url('./images/img-10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: large;
+}
+
+.adoptpet {
+  background-image: url('/src/images/photo-1522276498395-f4f68f7f8454.jfif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 100px;
+}
+
+.rehomepet {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 100px;
+}
+
+.os-hero-card{
+  background: rgb(255, 255, 255,0.3);
+  color: black;
+  padding: 10px;
+  font-weight: 300;
+  text-align: left;
+  width: 600px;
+  height: 200px;
+  margin: 250px 200px 100px 20px;
+}
+
+@media only screen and (max-width: 700px){
+  .os-hero-card{
+    width: fit-content;
+    height: fit-content;
+    margin: 200px 100px 100px 20px;
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+}
+
